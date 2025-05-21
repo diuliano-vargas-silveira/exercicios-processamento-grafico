@@ -43,8 +43,9 @@ include_directories(${glm_SOURCE_DIR})
 
 
 # Lista de exemplos/exercícios podem ser colocados aqui também
-set(
-    Desafio1/Desafio1
+set(EXERCISES
+    Desafio1/Desafio1Parte1  
+    Desafio1/Desafio1Parte2
 )
 
 add_compile_options(-Wno-pragmas)
